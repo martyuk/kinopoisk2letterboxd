@@ -15,6 +15,7 @@ for i in range(33):
 2 - WatchedDate
 3 - Rating10
 '''
+
 movie_list = []
 movie_list.append(['Title', 'Year', 'WatchedDate', 'Rating10'])
 line_number = 0
