@@ -3,7 +3,6 @@ import html
 
 k_import_filename = ""
 k_import = open(k_import_filename, "r", encoding='Windows-1251')
-log = open("kinopoisk_log.txt", "w")
 
 #Get rid of first intro part
 for i in range(33):
@@ -60,4 +59,3 @@ movie_df = pd.DataFrame(movie_list)
 movie_df.to_csv('k_export.csv', index=False, header=False)
 
 k_import.close()
-log.close()
